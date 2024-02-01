@@ -14,6 +14,7 @@ const typeDefs = `
     image: String
     link: String
     title: String
+    bookId: ID
   }
 
   type Auth {
@@ -27,6 +28,7 @@ const typeDefs = `
     image: String
     link: String
     title: String
+    bookId: ID
   }
 
   type Query {
